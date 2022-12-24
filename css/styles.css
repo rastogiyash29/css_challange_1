@@ -1,0 +1,111 @@
+body{
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#cards{
+    margin: 5% 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: start;
+    box-sizing: border-box;
+    overflow: hidden;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 70%;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.logo{
+
+}
+.heading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.disc{
+    font-size: 1.25rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.btn{
+    border: 5px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 50px;
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    margin-top: 12%;
+}
+
+#card1{
+    background-color: hsl(31, 77%, 52%);
+}
+#card2{
+    background-color:  hsl(184, 100%, 22%);
+}
+#card3{
+    background-color: hsl(179, 100%, 13%);
+}
+/* 
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+*/
